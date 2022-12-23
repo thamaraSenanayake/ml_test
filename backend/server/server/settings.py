@@ -31,7 +31,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    # 'apps.endpoints.apps.EndpointsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -39,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'apps.endpoints'
+    # 'apps.endpoints.apps.EndpointsConfig',
+    'apps.endpoints',
+    'apps.ml'
 ]
 
 MIDDLEWARE = [
