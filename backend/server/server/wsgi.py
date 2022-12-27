@@ -40,7 +40,7 @@ try:
                             algorithm_name="extra trees",
                             algorithm_status="testing",
                             algorithm_version="0.0.1",
-                            owner="Piotr",
+                            owner="none",
                             algorithm_description="Extra Trees with simple pre- and post-processing",
                             algorithm_code=inspect.getsource(RandomForestClassifier))
 
